@@ -13,6 +13,10 @@
 		936E53DA264CF9840001C283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936E53D8264CF9840001C283 /* Main.storyboard */; };
 		936E53DC264CF9870001C283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936E53DB264CF9870001C283 /* Assets.xcassets */; };
 		936E53DF264CF9870001C283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936E53DD264CF9870001C283 /* LaunchScreen.storyboard */; };
+		936E53E8264CFD510001C283 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 936E53E6264CFD510001C283 /* bar.png */; };
+		936E53E9264CFD510001C283 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 936E53E7264CFD510001C283 /* tail.png */; };
+		936E53EB264D05550001C283 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E53EA264D05550001C283 /* GameViewController.swift */; };
+		936E53ED264D05690001C283 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E53EC264D05690001C283 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		936E53DB264CF9870001C283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		936E53DE264CF9870001C283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		936E53E0264CF9870001C283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936E53E6264CFD510001C283 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		936E53E7264CFD510001C283 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		936E53EA264D05550001C283 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		936E53EC264D05690001C283 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		936E53D1264CF9840001C283 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				936E53E6264CFD510001C283 /* bar.png */,
+				936E53E7264CFD510001C283 /* tail.png */,
 				936E53D2264CF9840001C283 /* AppDelegate.swift */,
 				936E53D4264CF9840001C283 /* SceneDelegate.swift */,
 				936E53D6264CF9840001C283 /* ViewController.swift */,
 				936E53D8264CF9840001C283 /* Main.storyboard */,
+				936E53EA264D05550001C283 /* GameViewController.swift */,
+				936E53EC264D05690001C283 /* RankingViewController.swift */,
 				936E53DB264CF9870001C283 /* Assets.xcassets */,
 				936E53DD264CF9870001C283 /* LaunchScreen.storyboard */,
 				936E53E0264CF9870001C283 /* Info.plist */,
@@ -126,8 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				936E53DF264CF9870001C283 /* LaunchScreen.storyboard in Resources */,
+				936E53E9264CFD510001C283 /* tail.png in Resources */,
 				936E53DC264CF9870001C283 /* Assets.xcassets in Resources */,
 				936E53DA264CF9840001C283 /* Main.storyboard in Resources */,
+				936E53E8264CFD510001C283 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936E53ED264D05690001C283 /* RankingViewController.swift in Sources */,
+				936E53EB264D05550001C283 /* GameViewController.swift in Sources */,
 				936E53D7264CF9840001C283 /* ViewController.swift in Sources */,
 				936E53D3264CF9840001C283 /* AppDelegate.swift in Sources */,
 				936E53D5264CF9840001C283 /* SceneDelegate.swift in Sources */,
